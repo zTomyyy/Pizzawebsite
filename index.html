@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+  <meta charset="UTF-8"> 
+  <link rel="stylesheet" href="B1.css">
+  <title>Formular PHP MySQL</title>
+</head>
+
+<body>
+  <h1>Pizzeria</h1>
+
+  <form action="B1.php" method="GET">
+    <form>
+      <p>Pizza auswählen:</p>
+      <select id="auswahl" name="pizza">
+        <option value="margaritha">Margaritha</option>
+        <option value="salami">Salami</option>
+        <option value="prosciutto">Prosciutto</option>
+        <option value="hawaii">Hawaii</option>
+      </select>
+    </form>
+    <p>Vorname</p>
+    <p><input type="text" name="vorname" /></p>
+    <p>Nachname</p>
+    <p><input type="text" name="nachname" /></p>
+    <p>Adresse</p>
+    <p><input type="text" name="adresse" /></p>
+    <p><input type="submit" value="Bestellen" /></p>
+  </form>
+</body>
+</html>

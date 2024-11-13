@@ -1,0 +1,66 @@
+body {
+  background-color: #FF636D; /* Heller Grauton */
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column; /* Vertikale Anordnung */
+  justify-content: flex-start; /* Inhalte nach oben verschieben */
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 20px 0; /* Abstände um die Überschriften */
+}
+
+form {
+  text-align: center;
+  margin-top: 10px; /* Abstand zwischen Formular und Überschriften */
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 10px; /* Rundere Ecken */
+  border: 2px solid #ccc; /* Ändert die Randfarbe und -breite */
+  outline: none; /* Entfernt den schwarzen Umriss bei Fokus */
+  font-size: 16px;
+  width: 200px;
+}
+
+input[type="text"]:focus {
+  padding: 10px;
+  border-radius: 10px; /* Rundere Ecken */
+  border: 2px solid #ff0000; /* Ändert die Randfarbe und -breite */
+  outline: none; /* Entfernt den schwarzen Umriss bei Fokus */
+  font-size: 16px;
+  width: 200px;
+}
+
+select {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  width: 220px; /* Breite des Dropdowns */
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #8f8f8f; /* Grauer Hintergrund */
+  color: white; /* Weiße Schrift */
+  border: none; /* Kein Rand */
+  border-radius: 5px;
+  cursor: pointer; /* Zeiger beim Überfahren */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Übergang für Hintergrundfarbe und Skalierung */
+}
+
+input[type="submit"]:hover {
+  background-color: #00840b; /* Dunkleres Grün beim Hover */
+  transform: scale(1.05); /* Vergrößerung bei Hover */
+}
+
+input[type="submit"]:focus {
+  border: none;
+}
+
